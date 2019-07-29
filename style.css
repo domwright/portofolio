@@ -1,0 +1,198 @@
+/* CSS Document */
+
+body {
+	background-image: url("images/dust_scratches.png");
+    font-size: 15px;
+    line-height: 25px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+	padding:0px;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;	
+}
+
+#picMe {
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 15px;
+}
+
+#aboutHeading {
+	color: #7d648c;
+	font-size: 24px;
+}
+
+#contactHeading {
+	color: #7d648c;
+	font-size: 24px;
+}
+
+#portfolioHeading {
+	color: #7d648c;
+	font-size: 24px;
+}
+
+.navigation {
+    padding: 0px;
+    background: #fff;
+    color: #333;
+    display: block;
+	width:900px;
+	text-align:center;
+	margin: auto;
+}
+
+.navigation h1 {
+	float: left;
+	display: inline-block;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background: #7d648c;
+	color: #fff;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.wrapper {
+	text-align: top;
+	margin: 0px auto;
+	width: 850px;
+	padding: 25px;
+	border: 2px solid #dddddd;
+	position: relative;
+	margin-bottom: 100px;
+	background-color: white;
+}
+
+nav {
+	display: inline-block;
+	background: #fff;
+	width: 400px;
+	margin-top: 0px;
+	float: right;
+}
+
+nav ul {margin-top:0px;}
+
+nav ul li {
+	float: right;
+	display:inline-block;
+	margin-top:0px;
+}
+
+nav ul li a {
+	float:left;
+	background:#fff;
+	text-decoration:none;
+	font-family:arial;
+	display: block;
+	color:#333;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-right: 1px solid #cccccc
+}
+
+nav ul li a:hover {
+	background: #7d648c;
+	color:#fff;
+}
+
+.contactForm {
+	margin: 0px auto;
+	width: 850px;
+	padding: 25px;
+	border: 2px solid #dddddd;
+	background-color: white;
+}
+
+.myPortfolio {
+	margin: 0px auto;
+	width: 850px;
+	padding: 25px;
+	border: 2px solid #dddddd;
+	margin-bottom: 100px;
+	overflow: auto;
+	background-color: white;
+}
+
+#submit {
+	background-color: #7d648c;
+	color: white;
+}
+header {
+    padding: 0px;
+    margin-bottom: 40px;
+	margin-right:0px;
+	margin-left:0px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    background: #fff;
+	width:100%;
+	border-bottom: 1px solid #cccccc;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.gallery {
+	margin: 10px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 180px;
+}
+  
+.gallery:hover {
+	border: 1px solid #7d648c;
+}
+  
+.gallery img {
+	width: 100%;
+	height: auto;
+}
+  
+.desc {
+	padding: 15px;
+	text-align: center;
+	background-color: #7d648c;
+	color: white;
+}
+
+footer {
+	width: 100%;
+	background-color: #666666;
+	color: white;
+	border-top: 8px solid #7d648c;
+	bottom: 0px;
+	left: 0px;
+	text-align: center;
+	font-size: 11px;
+	height: 50px;
+	position: fixed;
+}
+
+#copyRight {
+	padding: 2px;
+}
+
+@media screen (max-width: 640px) {
+    .body, .wrapper, .myPortfolio, .contactForm{
+        font-size: 1.25rem;
+    }
+
+@media screen (max-width: 768px) {
+    .body, .wrapper, .myPortfolio, .contactForm{
+        font-size: 2.25rem;
+    }
+    
+@media screen (max-width: 960px) {
+    .body, .wrapper, .myPortfolio, .contactForm{
+        font-size: 3rem;
+    }  
